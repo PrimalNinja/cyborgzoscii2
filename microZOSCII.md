@@ -830,11 +830,14 @@ The 54-character seed must be shared securely for initial setup. Options:
 - In-person exchange (write on paper, memorize)
 - Secure courier with tamper-evident packaging
 - Pre-provisioned during manufacturing (IoT devices)
+- NFC between physical devices
 
 **Medium Security:**
 - Phone call (read verbally)
 - QR code scanned in person
-- Encrypted initial channel (accepting one-time vulnerability)
+
+**Low Security:**
+- Encrypted initial channel (if you don't mind it being harvested making future decode possible)
 
 **The key insight:** After initial seed exchange, all future communications are quantum-proof. The seed only needs to be exchanged once, not for every session.
 
