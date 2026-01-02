@@ -918,24 +918,6 @@ K9mP2vQx7nR4wL8jY3hT6fN1sB5gM0cV9zX2aD4eW7qU3iO8pJ[XX]
 ```
 Good practice is to add checksum or checkdigit internally witin the encoding. ZOSCII's principles are to have no identifiable information on the outside, no headers, no markers.
 
-### 3. Multi-Factor Bootstrap
-
-Combine multiple 54-character seeds:
-- Seed A: User-typed
-- Seed B: Derived from biometric
-- Seed C: Hardware token
-- Final microROM: XOR(A, B, C)
-
-### 4. Hierarchical Keys
-
-Use microZOSCII to bootstrap multiple session ROMs:
-```
-Master microROM (54 chars)
-  ├─> Session ROM 1 (64KB) - Today's communications
-  ├─> Session ROM 2 (64KB) - Tomorrow's communications
-  └─> Session ROM 3 (64KB) - Emergency backup
-```
-
 ---
 
 ## Conclusion
