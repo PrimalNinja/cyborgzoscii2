@@ -12,4 +12,8 @@ An innovative character encoding system that eliminates lookup table overhead wh
 
 CyborgZOSCII is an alternative to ASCII/PETSCII that uses direct ROM addressing instead of traditional character-to-value mapping. This approach provides significant advantages for resource-constrained systems while offering unique security properties.
 
+## microZOSCII
+
+microZOSCII is a ZOSCII-derived, Quantum Proof mechanism to bootstrap full ZOSCII.
+
 **ZOSCII: Where information theory meets practical engineering, and encryption becomes obsolete.**
